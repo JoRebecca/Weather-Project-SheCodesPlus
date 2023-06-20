@@ -1,0 +1,87 @@
+body{
+  background: url(cherryblossom-index.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  margin: 0;
+  padding-top: 15px;
+  font-size: 45px;
+  font-style: italic;
+}
+div.col-2{
+  display:block;
+  font-size: 65px;
+  padding-left: 0;
+  margin:  0 auto;
+  margin-left:  0;
+}
+#current-location-button{
+  display: block;
+  position: relative;
+  top: 156px;
+  left: 360px;
+  background-color: rgba(255,255,255,.6);
+  border: 0.5px solid  #e6eaed;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(202, 200, 200);
+}
+#current-location-button:hover{
+  background-color: #d0e4fc ;
+}
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: 490px;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 15px;
+  background: radial-gradient(592px at 48.2% 50%,
+ rgba(255, 255, 249, 0.8) 0%,
+ rgb(160, 199, 254) 74.6%);
+}
+.current-data{
+   padding: 4px;
+  padding-right: 15px;
+  border: 0.5px solid  #e6eaed;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgb(202, 200, 200);
+  background-color:  rgba(255,255,255,.2);
+}
+.wrapper{
+  margin: 5px 4px;
+  display: inline-block;
+  width: 80px;
+  border: 0.5px solid  #e6eaed;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(202, 200, 200);
+  background-color: rgba(255,255,255,.4);
+  padding: 10px;
+  transition: all 120ms ease-in-out;
+}
+.sun-size{
+  font-size:  72px;
+  text-align: center;
+  color: #5c67c9;
+  padding-top: 15px;
+}
+.current-date-style{
+  color: black;
+  font-size: 18px;
+}
+.next-week-icons{
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #5c67c9;
+}
+.coder{
+  text-align: center;
+  background: radial-gradient(592px at 48.2% 50%,
+  rgba(255, 255, 249, 0.8) 0%,
+  rgb(160, 199, 254) 74.6%);
+  display: block;
+  margin: 0 auto;
+  max-width: 490px;
+  border-radius: 6px;
+}
