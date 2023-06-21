@@ -21,12 +21,21 @@ function formatDate(date) {
   ];
   let day = days[dayIndex];
 
-  return `${day} ${hours}:${minutes}`;
+  let monthIndex = date.getMonth();
+  let months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  let month= months[monthIndex];
+
+  let numericDate = date.getDate();
+  if (numericDate< 10){
+    numericDate= `0${numericDate}`;
+  }
+
+ 
+  return `${month}/${numericDate} - ${day} ${hours}:${minutes}`;
 }
 
 function displayWeatherCondition(response) {
 
-  console.log(response);
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
